@@ -6,5 +6,6 @@ def line ()
   if 
     puts "The line is currently empty."
     other_deli.each_with_index.collect do |index, name|
-      line << puts "The line is currently: " + #{index} + #{name}"
+      puts "The line is currently: " + #{index} + #{name}
+    end 
 end 
