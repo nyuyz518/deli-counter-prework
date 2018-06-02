@@ -8,7 +8,6 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli.unshift}."
   end
-  
 
 def line(current_line)
     if current_line.length == 0
