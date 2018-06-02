@@ -20,6 +20,9 @@ end
       
 def now_serving (katz_deli)
   
-  katz_deli.unshift 
+  puts katz_deli[0]
+    katz_deli.unshift 
   break if katz_deli.length == 0
-  puts 
+end 
+  puts "There is nobody waiting to be served!".
+end 
