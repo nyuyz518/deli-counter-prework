@@ -9,12 +9,12 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.unshift}."
   end
 
-def line(current_line)
-    if current_line.length == 0
+def line(katz_deli)
+    if katz_deli.length == 0
       puts "The line is currently empty."
     else 
       puts "The line is currently: "
-      current_line.each_with_index do |i, x| puts "#{i+1}. #{x}."
+      katz_deli.each_with_index do |i, x| puts "#{i+1}. #{x}."
     end 
 end
 
