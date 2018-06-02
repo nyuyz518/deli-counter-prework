@@ -4,5 +4,7 @@ other_deli = ["Logan", "Avi", "Spencer"]
 
 def line ()
   if 
-    puts"
+    puts "The line is currently empty."
+    other_deli.each_with_index.collect do |name|
+      line << puts ""
 end 
