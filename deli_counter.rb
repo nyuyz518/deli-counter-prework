@@ -11,3 +11,8 @@ def line(current_line)
       current_line.each_with_index do |i, x| puts "#{i+1}. #{x}."
     end 
 end
+
+def take_a_number (katz_deli,string)
+    if katz_deli.length == 0
+      puts "The line is currently empty."
+      
